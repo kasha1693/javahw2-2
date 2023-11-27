@@ -19,8 +19,7 @@ public class Main {
         if (refill > 1000) {
             System.out.println("Final bonus " + bonus);
             System.out.println("Final chek " + finalCheck);
-        }
-        else {
+        } else {
             System.out.println("Final bonus " + 0);
             System.out.println("Final chek " + (check + refill));
         }
