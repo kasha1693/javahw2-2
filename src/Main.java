@@ -16,7 +16,7 @@ public class Main {
         int bonus = refill / 100;
         int finalCheck = check + refill + bonus;
 
-        if (refill >= 1000) {
+        if (refill > 1000) {
             System.out.println("Final bonus " + bonus);
             System.out.println("Final chek " + finalCheck);
         }
