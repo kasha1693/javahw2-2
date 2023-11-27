@@ -11,16 +11,15 @@ public class main {
         // на экран.
 
 
+        int check = 900;
+        int refill = 2000;
+        int bonus = refill / 100;
+        int finalCheck = check + refill + bonus;
 
-    int check = 900;
-    int refill = 2000;
-    int bonus = refill / 100;
+        if (refill >= 1000) {
+            System.out.println("Final bonus " + bonus);
+            System.out.println("Final chek " + finalCheck);
+        }
 
-    if (refill >= 1000) {
-        bonus = 100;
-    } else {
-        bonus = 0;
     }
-
-    System.out.println("Итоговый бонус" );
 }
