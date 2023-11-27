@@ -12,15 +12,15 @@ public class main {
 
 
 
-    int schet = 900;
-    int popolnenie = 2000;
-    int bonus = popolnenie / 100;
+    int check = 900;
+    int refill = 2000;
+    int bonus = refill / 100;
 
-    if (popolnenie >= 1000) {
+    if (refill >= 1000) {
         bonus = 100;
     } else {
         bonus = 0;
     }
 
-    System.out.println("Итоговый бонус");
+    System.out.println("Итоговый бонус" );
 }
