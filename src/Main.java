@@ -20,6 +20,10 @@ public class main {
             System.out.println("Final bonus " + bonus);
             System.out.println("Final chek " + finalCheck);
         }
+        else {
+            System.out.println("Final bonus " + 0);
+            System.out.println("Final chek " + (check + refill));
+        }
 
     }
 }
